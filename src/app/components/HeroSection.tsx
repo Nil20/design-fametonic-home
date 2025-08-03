@@ -2,7 +2,7 @@
 
 export default function HeroSection() {
   return (
-    <section className="pt-[212px] flex flex-col md:flex-row ml-[211px] items-center justify-between px-6 md:px-16 py-12 gap-10">
+    <section className="pt-[212px] flex flex-col md:flex-row md:ml-[211px] items-center justify-between px-6 md:px-16 py-12 gap-10">
       <div className="max-w-xl space-y-6">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
           Want to Turn Social Media Into a <br />
@@ -30,7 +30,6 @@ export default function HeroSection() {
         </p>
       </div>
       <div className="md:w-1/2 w-full">
-        {/* Placeholder for image */}
         <div className="w-full aspect-[16/9] bg-gradient-to-tr from-cyan-500 to-pink-500 rounded-3xl shadow-lg" />
       </div>
     </section>
