@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
+import Body from './components/Body';
 import TopNav from './components/navigation/TopNav';
 
 export default function Home() {
@@ -7,7 +7,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       <Header />
       <TopNav />
-      <HeroSection />
+      <Body />
     </main>
   );
 }
