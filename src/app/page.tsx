@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Body from './components/Body';
+import Body from './components/body/Body';
 import TopNav from './components/navigation/TopNav';
 
 export default function Home() {

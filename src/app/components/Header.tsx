@@ -7,7 +7,7 @@ export default function Header() {
         className="font-figtree font-extrabold leading-[100%] text-center px-2
   text-[16px] md:text-[22px] md:whitespace-nowrap text-white"
       >
-        <span className="text-sky-400 uppercase">
+        <span style={{ color: '#00E7F9' }} className="text-sky-400 uppercase">
           🚀 Fresh Beginnings Sale:
         </span>{' '}
         Extra 25% OFF, Limited Spots – start your journey today!
