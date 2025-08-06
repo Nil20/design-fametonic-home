@@ -13,9 +13,12 @@ export default function Body() {
       <div className="flex flex-col md:top-[212px] top-0 md:h-[511px] w-full max-w-[516px] gap-[30px] z-10 mx-auto md:mx-0">
         <TextDescription />
         <List />
-        <div className="flex flex-col md:top-[212px] top-0 md:h-[511px] w-full max-w-[516px] z-10 mx-auto">
+
+        <div className="flex flex-col-reverse md:flex-col md:top-[212px] top-0 md:h-[511px] w-full max-w-[516px] z-10 mx-auto">
           <Button />
-          <Footer />
+          <div className="mb-[30px] md:mt-0">
+            <Footer />
+          </div>
         </div>
       </div>
       <div className="md:w-1/2 w-full z-10" />
