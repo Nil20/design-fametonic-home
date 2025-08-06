@@ -6,7 +6,7 @@ export function MobileMenu({
   onClose: () => void;
 }) {
   return (
-    <div className="absolute top-full left-0 w-full bg-black text-white flex flex-col items-center gap-4 py-4 md:hidden">
+    <div className="absolute top-full left-0 w-full bg-black text-[#A9A9A9] flex flex-col items-center gap-4 py-4 md:hidden">
       {navItems.map((item, i) => (
         <button
           key={i}
