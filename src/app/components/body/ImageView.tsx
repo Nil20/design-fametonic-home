@@ -14,7 +14,7 @@ export default function ImageView() {
       />
 
       {/* Mobile Image - flows normally */}
-      <div className="block md:hidden flex justify-center w-full mb-6 z-0">
+      <div className="block md:hidden flex flex-col -mt-[20px] justify-center w-full mb-6 z-0">
         <Image
           src="/assets/image.svg"
           alt="Hero Graphic"
