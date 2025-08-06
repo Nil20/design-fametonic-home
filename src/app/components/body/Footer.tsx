@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <div className="mt-4 flex flex-col items-center md:items-start w-[350px] md:w-[516px] gap-[12px]">
+    <div className="mt-[-14px] md:mt-4 flex flex-col items-center md:items-start w-[350px] md:w-[516px] gap-[12px] md:ml-[8px]">
       <p
         className="font-figtree font-medium tracking-normal text-[#ABABAB] text-[12px] leading-[16px] break-normal"
         style={{
@@ -14,7 +14,6 @@ export default function Footer() {
         By clicking &quot;Get Started&quot;, you agree with Terms and
         Conditions, Privacy Policy, Subscription Terms
       </p>
-
       <p
         className="font-figtree font-medium tracking-normal text-[#ABABAB] text-[10px] leading-[14px] mt-1 break-normal"
         style={{
